@@ -1,0 +1,75 @@
+#título {
+    color: tomato;
+}
+
+p.especial {
+    color: mediumseagreen;
+}
+
+p.texto {
+    color:slateblue;
+}
+
+div p {
+    color:aquamarine;
+}
+
+div h2, div h3 {/* esto es un comentario */
+    color:brown;
+}
+
+* {
+    font-size: 24px;
+    color:black;/* esto es un comentario */
+}
+
+/* esto es un comentario */
+
+/*
+ esto es un comentario
+ que tiene
+ muuuuuchas
+ líneas 
+ */
+
+ /*
+ .color {
+    color:#ff0000;
+ }
+
+ .color {
+    color: rgb(0, 255, 255);
+ }
+ */
+
+.color {
+    /* border: 5px red outset; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style:solid;
+    border-color: blue;
+    border-radius: 5cm;
+    border-width: 2em;
+}
+
+#fondo {
+    background-color: rgba(255, 0, 0);
+    /*opacity: 0.3;*/
+    height: 200px;
+    /* background-image: url('coffee.png');
+    height: 400px;
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+    background-position: center bottom; */
+    background: #f00 url(coffee.png) repeat-y bottom / 100px 100px;
+}
